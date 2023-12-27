@@ -1,3 +1,5 @@
+-- Permet de sélectionner des objets similaires dans une scène 3Dsmax
+
 fn areGeometricallySimilar obj1 obj2 =
 (
     if (classOf obj1 == Editable_Poly and classOf obj2 == Editable_Poly) then
